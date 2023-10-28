@@ -18,6 +18,7 @@ import java.util.Optional;
 @AllArgsConstructor
 public class MensajeServiceImpl implements MensajeService {
 
+    @Autowired
     private final ModelMapper modelMapper;
     @Autowired
     private MensajeRepository repository;
